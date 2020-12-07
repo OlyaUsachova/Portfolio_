@@ -1,0 +1,538 @@
+@import url(../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css);
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,400&family=Lato:wght@300;400&display=swap");
+@import url(bootstrap.css);
+@import url(bootstrap-theme.css);
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+.bg_header {
+  background-image: url("../images/bg_banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 750px; }
+  @media screen and (max-width: 375px) {
+    .bg_header {
+      height: 650px; } }
+
+.navbar-brand {
+  padding-top: 30px; }
+
+.logo .logo-block {
+  max-width: 56px;
+  margin: auto; }
+  .logo .logo-block h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: black; }
+  .logo .logo-block p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 4px;
+    color: black; }
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  background-image: none;
+  box-shadow: none; }
+  .navbar-default .navbar-nav a {
+    padding: 30px 15px 8px 15px;
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #4d4d4d; }
+    .navbar-default .navbar-nav a:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: #878787;
+      transition: 0.5s; }
+
+.navbar {
+  margin-bottom: 182px; }
+
+.navbar-default .navbar-nav a:hover:after {
+  width: 100%; }
+
+.navbar-default .navbar-nav a:active:after {
+  width: 100%; }
+
+header .banner .items_banner h1 {
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  font-size: 90px;
+  color: #4d4d4d;
+  margin-bottom: 25px; }
+  @media screen and (max-width: 768px) {
+    header .banner .items_banner h1 {
+      font-size: 100px; } }
+  @media screen and (max-width: 375px) {
+    header .banner .items_banner h1 {
+      font-size: 50px; } }
+header .banner .items_banner p {
+  color: rgba(77, 77, 77, 0.5);
+  font-size: 20px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  margin-bottom: 33px; }
+  @media screen and (max-width: 768px) {
+    header .banner .items_banner p {
+      font-size: 30px; } }
+  @media screen and (max-width: 375px) {
+    header .banner .items_banner p {
+      font-size: 20px;
+      margin-bottom: 15px; } }
+header .banner .items_banner .a_links_header a {
+  background-color: transparent;
+  border: solid #4d4d4d 1px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  color: #4d4d4d;
+  font-size: 16px;
+  min-width: 160px;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    header .banner .items_banner .a_links_header a {
+      margin-bottom: 15px;
+      min-width: 250px;
+      font-size: 18px; } }
+  @media screen and (max-width: 375px) {
+    header .banner .items_banner .a_links_header a {
+      min-width: 200px;
+      font-size: 14px; } }
+  header .banner .items_banner .a_links_header a:hover {
+    border: none;
+    background-color: white; }
+    @media screen and (max-width: 768px) {
+      header .banner .items_banner .a_links_header a:hover {
+        display: none; } }
+
+.about {
+  padding: 118px 0 123px; }
+  @media screen and (max-width: 375px) {
+    .about {
+      padding: 80px 0; } }
+  .about .about_me h2 {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 10px;
+    text-transform: uppercase; }
+    .about .about_me h2:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #7a7a7a;
+      margin-top: 7px;
+      margin-bottom: 20px; }
+  .about .about_me h3 {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 10px; }
+    .about .about_me h3 span {
+      display: block;
+      letter-spacing: 10px; }
+  .about .about_me p {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-bottom: 40px; }
+  .about .about_me a {
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    color: #4d4d4d;
+    display: inline-block;
+    border: solid #4d4d4d 1px;
+    min-width: 245px;
+    padding: 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; }
+    .about .about_me a:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+      border: none; }
+      @media screen and (max-width: 768px) {
+        .about .about_me a:hover {
+          display: none; } }
+  @media screen and (max-width: 768px) {
+    .about .about_me_img {
+      display: none; } }
+
+.services {
+  padding: 115px 0 26px;
+  background-color: #f6f6f6; }
+  @media screen and (max-width: 375px) {
+    .services {
+      padding: 80px 0; } }
+  .services h2 {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 10px;
+    text-align: center; }
+    .services h2:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #7a7a7a;
+      margin: 7px 0 20px;
+      margin: auto; }
+  .services h3 {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-align: center;
+    letter-spacing: 10px; }
+  .services .row .text-center .item-services {
+    margin-bottom: 89px; }
+    @media screen and (max-width: 375px) {
+      .services .row .text-center .item-services {
+        margin-bottom: 40px; } }
+    .services .row .text-center .item-services h4 {
+      color: #4d4d4d;
+      font-family: "Asap", sans-serif;
+      font-weight: 500;
+      font-size: 24px; }
+      .services .row .text-center .item-services h4 span {
+        display: block; }
+
+.skills {
+  padding: 95px 0 125px; }
+  @media screen and (max-width: 768px) {
+    .skills {
+      display: none; } }
+  @media screen and (max-width: 375px) {
+    .skills {
+      padding: 80px 0; } }
+
+.style_h2 {
+  font-family: "Asap", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 10px;
+  text-align: center; }
+  .style_h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #7a7a7a;
+    margin: 7px 0 20px;
+    margin: auto; }
+
+.style_h3 {
+  font-family: "Asap", sans-serif;
+  font-weight: 700;
+  color: #4d4d4d;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  text-align: center;
+  letter-spacing: 10px; }
+
+.portfolio {
+  background-color: #f6f6f6;
+  padding: 104px 0 122px; }
+  @media screen and (max-width: 375px) {
+    .portfolio {
+      padding: 80px 0; } }
+  .portfolio .container .row img {
+    margin-bottom: 30px;
+    height: 320px; }
+    @media screen and (max-width: 375px) {
+      .portfolio .container .row img {
+        width: 300px;
+        height: 300px; } }
+    .portfolio .container .row img:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25); }
+      @media screen and (max-width: 768px) {
+        .portfolio .container .row img:hover {
+          display: none; } }
+
+.gallery {
+  display: none; }
+
+.portfolio > .container > .link_portfolio {
+  text-align: center; }
+  .portfolio > .container > .link_portfolio a {
+    text-decoration: none;
+    background-color: white;
+    display: inline-block;
+    min-width: 190px;
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4d4d4d;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center; }
+    .portfolio > .container > .link_portfolio a:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25); }
+      @media screen and (max-width: 768px) {
+        .portfolio > .container > .link_portfolio a:hover {
+          display: none; } }
+
+.testimonials {
+  padding: 105px 0 120px; }
+  @media screen and (max-width: 375px) {
+    .testimonials {
+      padding: 80px 0; } }
+  @media screen and (max-width: 375px) {
+    .testimonials h2 {
+      font-size: 22px; } }
+  @media screen and (max-width: 375px) {
+    .testimonials h3 {
+      font-size: 32px; } }
+  .testimonials .testimonials_block {
+    border: solid black 1px;
+    padding: 80px 75px 38px;
+    margin: auto;
+    max-width: 955px; }
+    @media screen and (max-width: 768px) {
+      .testimonials .testimonials_block {
+        border: none; } }
+    .testimonials .testimonials_block .testimonials_content_flex {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 30px; }
+      .testimonials .testimonials_block .testimonials_content_flex .testimonials_img {
+        width: 160px;
+        height: 160px; }
+      .testimonials .testimonials_block .testimonials_content_flex .testimonials_review {
+        width: 590px;
+        height: 160px; }
+        .testimonials .testimonials_block .testimonials_content_flex .testimonials_review h4 {
+          color: #212121;
+          font-family: "Asap", sans-serif;
+          font-weight: 500;
+          text-transform: uppercase;
+          font-size: 30px; }
+          .testimonials .testimonials_block .testimonials_content_flex .testimonials_review h4 span {
+            font-weight: 400;
+            font-size: 12px;
+            display: block;
+            font-style: italic; }
+        .testimonials .testimonials_block .testimonials_content_flex .testimonials_review p {
+          font-family: "Asap", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: rgba(33, 33, 33, 0.5);
+          text-transform: uppercase; }
+
+.owl-dots .owl-dot span {
+  background-color: transparent;
+  height: 13px;
+  width: 13px;
+  border: solid black 1px;
+  display: inline-block;
+  margin: 0 2.5px; }
+
+.owl-dots {
+  text-align: center; }
+
+.owl-dots .owl-dot.active span {
+  background-color: black; }
+
+.achieves {
+  background-color: #f6f6f6;
+  padding: 73px 0 66px; }
+  .achieves .item-achieves .mg-t {
+    margin-top: 20px; }
+  .achieves .item-achieves h4 {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    font-size: 22px; }
+    .achieves .item-achieves h4 span {
+      font-weight: 400;
+      text-transform: uppercase;
+      display: block; }
+
+.achieves_b_bottom {
+  background-color: white;
+  height: 155px; }
+  @media screen and (max-width: 768px) {
+    .achieves_b_bottom {
+      display: none; } }
+
+footer {
+  background-image: url("../images/footer_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 787px;
+  padding: 70px 0 25px; }
+  footer h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 10px;
+    text-align: center; }
+    footer h2:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: white;
+      margin-top: 7px;
+      margin-bottom: 20px;
+      margin: auto; }
+  footer h3 {
+    color: white;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-align: center;
+    letter-spacing: 10px; }
+  footer input {
+    border: none;
+    background-color: white;
+    height: 58px;
+    padding: 23px 10px;
+    margin-bottom: 30px;
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(33, 33, 33, 0.5); }
+  footer textarea {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(33, 33, 33, 0.5);
+    border: none;
+    background-color: white;
+    height: 209px;
+    padding: 25px 10px;
+    margin-bottom: 30px; }
+  footer .btn_footer {
+    text-align: center;
+    margin: auto;
+    border-bottom: solid 1px white; }
+    footer .btn_footer button {
+      min-width: 125px;
+      display: inline-block;
+      padding: 20px 0;
+      font-family: "Asap", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4d4d4d;
+      text-align: center;
+      border: none;
+      margin-bottom: 60px; }
+      footer .btn_footer button i {
+        margin-left: 5px;
+        transform: rotate(20deg); }
+      footer .btn_footer button:hover {
+        box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25); }
+
+.flex-footer {
+  display: flex;
+  max-width: 205px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 25px; }
+  .flex-footer .footer_link {
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    text-align: center;
+    padding: 3px 0; }
+  .flex-footer i {
+    font-size: 14px;
+    color: #575757;
+    line-height: 27px; }
+  .flex-footer .behance:hover {
+    background-color: #1769FF; }
+    .flex-footer .behance:hover i {
+      color: white; }
+  .flex-footer .google:hover {
+    background-color: #EA4335; }
+    .flex-footer .google:hover i {
+      color: white; }
+  .flex-footer .twitter:hover {
+    background-color: #00ACED; }
+    .flex-footer .twitter:hover i {
+      color: white; }
+  .flex-footer .linkedin:hover {
+    background-color: #007BB6; }
+    .flex-footer .linkedin:hover i {
+      color: white; }
+  .flex-footer .facebook:hover {
+    background-color: #0075EE; }
+    .flex-footer .facebook:hover i {
+      color: white; }
+  .flex-footer .dribbble:hover {
+    background-color: #E94C88; }
+    .flex-footer .dribbble:hover i {
+      color: white; }
+
+.p-footer p {
+  color: white;
+  font-family: "Asap", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 27px; }
+  @media screen and (max-width: 375px) {
+    .p-footer p {
+      color: #575757; } }
+
+.back_to_top {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 9999;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  background: white;
+  color: #575757;
+  cursor: pointer;
+  display: none;
+  font-size: 16px; }
+
+.back_to_top-show {
+  display: block;
+  font-size: 8px; }
+
+.navbar-toggle {
+  margin-right: 15px;
+  margin-top: 30px; }
+
+.navbar-collapse {
+  border: none; }
+
+.navbar-default .navbar-nav a {
+  padding: 20px 15px 0px 15px;
+  font-family: "Asap", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+.navbar-default > .navbar-collapse, .navbar-default > .navbar-form {
+  border: none; }
+
+/*# sourceMappingURL=style_preproc.css.map */
